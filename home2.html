@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy - Lojas ao seu alcance</title>
+    <link rel="icon" href="imagens/favicon-32x32.png" type="image/x-icon"> 
+    
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- BOOTSTRAP -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./home.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <!-- Seção do menu -->
+        <div class="menu-container">
+            <div class="btn-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu" id="menu">
+                <nav class="menu_content">
+                    <ul class="menu-items">
+                        <li><a href="suaConta.html">Minha conta</a></li>
+                        <li><a href="erro.html">Seus pedidos</a></li>
+                        <li><a href="erro.html">Suporte ao cliente</a></li>
+                        <li><a href="erro.html">Configurações</a></li>
+                    </ul>
+
+                    <div class="btn-sair">
+                        <a href="login.html">
+                            <button>Sair da conta</button>
+                        </a>
+                    </div>
+                </nav>
+            </div><!--menu-->
+
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
+
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="erro.html">Categorias</a></li>
+                    <li><a href="erro.html">Ofertas</a></li>
+                    <li><a href="erro.html">Lançamentos</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#inicio">
+                <img class="logo-foto" src="./imagens/Logo-buy-semfundo.png" alt="Logo da agência">
+            </a>
+        </div>
+
+        <!-- Seção de pesquisa e login -->
+        <div class="actions">
+            <div class="search-bar">
+                <input type="text" class="barra-pesquisa" placeholder="Buscar produtos, lojas...">
+                <button class="btn-pesquisa">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+            <div class="btn-login">
+                <a href="login.html">
+                    <button>Login</button>
+                </a>
+            </div>
+
+            <div>
+                <a class="icone-heart" href="erro.html"><i class="bi bi-heart"></i></a>
+                <a class="icone-cart" href="erro.html"><i class="bi bi-cart2"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner de avisos com ícones e estilo -->
+    <div class="banner-alert">
+        <div class="faixa-banner">
+            <i class="bi bi-truck fs-5 me-2 text-danger"></i>
+            <span><strong>Frete Grátis</strong> acima de R$ 100,00!</span>
+        </div>
+        <div class="faixa-banner">
+            <i class="bi bi-arrow-counterclockwise fs-5 me-2 text-danger"></i>
+            <span><strong>Devolução Grátis</strong> em até 7 dias</span>
+        </div>
+        <div class="faixa-banner">
+            <i class="bi bi-box-seam fs-5 me-2 text-danger"></i>
+            <span><strong>Compras Locais</strong> com entrega rápida!</span>
+        </div>
+    </div>
+
+    <section class="categories-container">
+        <div class="category">
+            <img src="imagens/categoriasFarma.jpg" alt="Farmácias">
+            <p>Farmácias</p>
+        </div>
+        <div class="category">
+            <img src="imagens/categoriasRoupas.jpg" alt="Roupas">
+            <p>Feminino</p>
+        </div>
+        <div class="category">
+            <img src="imagens/categoriasMasculino.jpg" alt="Casa e decoração">
+            <p>Masculino</p>
+        </div>
+        <div class="category">
+            <img src="imagens/categoriasSapatos.jpg" alt="Sapatos e bolsas">
+            <p>Sapatos</p>
+        </div>
+        <div class="category">
+            <img src="imagens/categoriasMake.jpg" alt="Maquiagem">
+            <p>Maquiagem</p>
+        </div>
+        <div class="category">
+            <img src="imagens/categoriasInfantil.jpg" alt="Infantil">
+            <p>Infantil</p>
+        </div>
+        <div class="category">
+            <img src="imagens/categoriasEletro.jpg" alt="Eletrônicos">
+            <p>Eletrônicos</p>
+        </div>
+        <div class="category">
+            <img src="imagens/categoriasCasa.jpg" alt="Casa e decoração">
+            <p>Casa e decoração</p>
+        </div>
+        <!-- Adicione mais categorias conforme necessário -->
+    </section>
+
+    <!-- Seção de Lojas -->
+    <section class="lojasProximas">
+        <h3 class="text-lojasProximas">Lojas mais próximas de você!</h3>
+        <div class="row">
+            <div class="card">
+                <img src="./imagens/estrela.jpeg" class="card-img-top" alt="Loja 1">
+                <div class="card-body">
+                    <h5 class="card-title">ACE Sports</h5>
+                    <p class="card-text">Endereço: Rua Exemplo, 123</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./imagens/saude.jpeg" class="card-img-top" alt="Loja 2">
+                <div class="card-body">
+                    <h5 class="card-title">Farma Popular</h5>
+                    <p class="card-text">Endereço: Rua Exemplo, 456</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./imagens/flor1.jpeg" class="card-img-top" alt="Loja 3">
+                <div class="card-body">
+                    <h5 class="card-title">Floricultura Florescer</h5>
+                    <p class="card-text">Endereço: Rua Exemplo, 789</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="" class="card-img-top" alt="Loja 4">
+                <div class="card-body">
+                    <h5 class="card-title">Floricultura Florescer</h5>
+                    <p class="card-text">Endereço: Rua Exemplo, 789</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="" class="card-img-top" alt="Loja 5">
+                <div class="card-body">
+                    <h5 class="card-title">Floricultura Florescer</h5>
+                    <p class="card-text">Endereço: Rua Exemplo, 789</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="" class="card-img-top" alt="Loja 6">
+                <div class="card-body">
+                    <h5 class="card-title">Floricultura Florescer</h5>
+                    <p class="card-text">Endereço: Rua Exemplo, 789</p>
+                </div>
+            </div>
+            <!-- Adicione mais lojas aqui -->
+        </div>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="container-maisVend">
+        <h2 class="text-center mb-4">Mais vendidos</h2>
+        <div class="row">
+
+            <div class="quad-maisVend">
+                <div class="card">
+                    <img src="./imagens/flor.jpeg" class="card-img-top" alt="Produto A">
+                    <div class="card-body">
+                        <h5 class="card-title">Prendedor de cabelo 🌺</h5>
+                        <p class="card-text">Preço: R$ 6,99</p>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quad-maisVend">
+                <div class="card">
+                    <img src="./imagens/tenis.jpeg" class="card-img-top" alt="Produto B">
+                    <div class="card-body">
+                        <h5 class="card-title">Tênis New Balance 550</h5>
+                        <p class="card-text">Preço: R$ 500,00</p>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quad-maisVend">
+                <div class="card">
+                    <img src="./imagens/fone.jpeg" class="card-img-top" alt="Produto C">
+                    <div class="card-body">
+                        <h5 class="card-title">Fone de Ouvido Xiaomi Redmi</h5>
+                        <p class="card-text">Preço: R$ 49,99</p>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quad-maisVend">
+                <div class="card">
+                    <img src="./imagens/relogio.jpeg" class="card-img-top" alt="Produto D">
+                    <div class="card-body">
+                        <h5 class="card-title">Relogio Smartwatch</h5>
+                        <p class="card-text">Preço: R$ 49,99</p>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="quad-maisVend">
+                <div class="card">
+                    <img src="" class="card-img-top" alt="Produto E">
+                    <div class="card-body">
+                        <h5 class="card-title">Fone de Ouvido Xiaomi Redmi</h5>
+                        <p class="card-text">Preço: R$ 49,99</p>
+                        <button class="add-to-cart">
+                            <i class="fas fa-shopping-cart"></i> Adicionar ao carrinho
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="bg-light text-center py-4">
+        <p>© 2024 Buy - Produtos Locais</p>
+    </footer>
+
+</body>
+
+</html>

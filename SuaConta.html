@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy - Lojas ao seu alcance</title>
+    <link rel="stylesheet" href="SuaConta2.css">
+    <link rel="stylesheet" href="SuaConta.css">
+    <link rel="icon" href="imagens/favicon-32x32.png" type="image/x-icon">
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- BOOTSTRAP -->
+
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <!-- Seção do menu -->
+        <div class="menu-container">
+            <div class="btn-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu" id="menu">
+                <nav class="menu_content">
+                    <ul class="menu-items">
+                        <li><a href="#">Minha conta</a></li>
+                        <li><a href="#">Seus pedidos</a></li>
+                        <li><a href="#">Suporte ao cliente</a></li>
+                        <li><a href="#">Configurações</a></li>
+                    </ul>
+    
+                    <div class="btn-sair">
+                        <a href="#">
+                            <button>Sair da conta</button>
+                        </a>
+                    </div>
+                </nav>
+            </div><!--menu-->
+    
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
+
+            <nav class="menu-nav">
+                <ul>
+                    <li><a href="">Categorias</a></li>
+                    <li><a href="">Ofertas</a></li>
+                    <li><a href="home2.html">Início</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <!-- Logo -->
+        <div class="logo">
+            <a href="#inicio">
+                <img class="logo-foto" src="./imagens/Logo-buy-semfundo.png" alt="Logo da agência">
+            </a>
+        </div>
+    
+        <!-- Seção de pesquisa e login -->
+        <div class="actions">
+            <div class="search-bar">
+                <input type="text" class="barra-pesquisa" placeholder="Buscar produtos, lojas...">
+                <button class="btn-pesquisa">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+
+            <div class="btn-login">
+                <a href="login.html">
+                    <button>Login</button>
+                </a>
+            </div>
+
+            <div>
+                <a class="icone-heart" href="#"><i class="bi bi-heart"></i></a>
+                <a class="icone-cart" href="#"><i class="bi bi-cart2"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <ul class="menu-opcoes">
+            <h2>Sua conta</h2>
+
+            <li><a href="#" class="item">
+                <h3>Favoritos</h3>
+                <p>Veja seus itens salvos em favoritos, facilitando o acesso futuro.</p>
+            </a></li>
+            
+            <li><a href="#" class="item">
+                <h3>Seus pedidos</h3>
+                <p>Acompanhe todos os seus pedidos feitos até agora.</p>
+            </a></li>
+
+            <li><a href="#" class="item">
+                <h3>Acesso e segurança</h3>
+                <p>Gerencie suas configurações de segurança e login.</p>
+            </a></li>
+
+            <li><a href="#" class="item">
+                <h3>Atendimento ao cliente</h3>
+                <p>Entre em contato com a nossa equipe de suporte.</p>
+            </a></li>
+
+            <li><a href="#" class="item">
+                <h3>Seus pagamentos</h3>
+                <p>Veja seus pagamentos, faturas e métodos de pagamento.</p>
+            </a></li>
+
+            <li><a href="#" class="item">
+                <h3>Suas mensagens</h3>
+                <p>Confira todas as suas mensagens recebidas.</p>
+            </a></li>
+
+            <li><a href="#" class="item">
+                <h3>Seus endereços</h3>
+                <p>Gerencie os endereços cadastrados para entrega.</p>
+            </a></li>
+
+            <li><a href="#" class="item">
+                <h3>Reembolsos Boleto/Pix</h3>
+                <p>Confira o status dos seus reembolsos por Boleto ou Pix.</p>
+            </a></li>
+        </ul>
+    </div>
+
+    <footer class="rodape">
+        <p>© 2024 Buy - Produtos Locais</p>
+    </footer>
+
+</body>
+</html>
